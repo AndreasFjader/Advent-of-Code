@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Day2 day2 = new Day2();
+            Day3 day3 = new Day3();
             Console.WriteLine("<Test>");
-            day2.Solve(false);
+            day3.Solve(false);
             Console.WriteLine("<Real>");
-            day2.Solve(true);
+            day3.Solve(true);
         }
     }
 }
