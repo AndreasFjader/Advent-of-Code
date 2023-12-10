@@ -23,7 +23,7 @@ for value in open('in.txt').read().splitlines():
     fv = first.pop()
     first.reverse()
     for f in first:
-        fv = (f - fv)
+        fv = f - fv
     t2 += fv
     
 print("Part 1:", t1)
